@@ -8,41 +8,7 @@
 ├── playbook.yaml
 ├── prometheus.repo
 └── roles
-    ├── apache2-centos
-    │   ├── README.md
-    │   ├── defaults
-    │   │   └── main.yml
-    │   ├── files
-    │   ├── handlers
-    │   │   └── main.yml
-    │   ├── meta
-    │   │   └── main.yml
-    │   ├── tasks
-    │   │   └── main.yml
-    │   ├── templates
-    │   ├── tests
-    │   │   ├── inventory
-    │   │   └── test.yml
-    │   └── vars
-    │       └── main.yml
     ├── apache2-ubuntu
-    │   ├── README.md
-    │   ├── defaults
-    │   │   └── main.yml
-    │   ├── files
-    │   ├── handlers
-    │   │   └── main.yml
-    │   ├── meta
-    │   │   └── main.yml
-    │   ├── tasks
-    │   │   └── main.yml
-    │   ├── templates
-    │   ├── tests
-    │   │   ├── inventory
-    │   │   └── test.yml
-    │   └── vars
-    │       └── main.yml
-    ├── configure_centos
     │   ├── README.md
     │   ├── defaults
     │   │   └── main.yml
@@ -93,58 +59,7 @@
     │   │   └── test.yml
     │   └── vars
     │       └── main.yml
-    ├── elastic2
-    │   ├── README.md
-    │   ├── defaults
-    │   │   └── main.yml
-    │   ├── files
-    │   ├── handlers
-    │   │   └── main.yml
-    │   ├── meta
-    │   │   └── main.yml
-    │   ├── tasks
-    │   │   └── main.yml
-    │   ├── templates
-    │   ├── tests
-    │   │   ├── inventory
-    │   │   └── test.yml
-    │   └── vars
-    │       └── main.yml
     ├── grafana-1
-    │   ├── README.md
-    │   ├── defaults
-    │   │   └── main.yml
-    │   ├── files
-    │   ├── handlers
-    │   │   └── main.yml
-    │   ├── meta
-    │   │   └── main.yml
-    │   ├── tasks
-    │   │   └── main.yml
-    │   ├── templates
-    │   ├── tests
-    │   │   ├── inventory
-    │   │   └── test.yml
-    │   └── vars
-    │       └── main.yml
-    ├── grafana-2
-    │   ├── README.md
-    │   ├── defaults
-    │   │   └── main.yml
-    │   ├── files
-    │   ├── handlers
-    │   │   └── main.yml
-    │   ├── meta
-    │   │   └── main.yml
-    │   ├── tasks
-    │   │   └── main.yml
-    │   ├── templates
-    │   ├── tests
-    │   │   ├── inventory
-    │   │   └── test.yml
-    │   └── vars
-    │       └── main.yml
-    ├── mysql-centos
     │   ├── README.md
     │   ├── defaults
     │   │   └── main.yml
@@ -195,58 +110,7 @@
     │   │   └── test.yml
     │   └── vars
     │       └── main.yml
-    ├── nagios_plugins1
-    │   ├── README.md
-    │   ├── defaults
-    │   │   └── main.yml
-    │   ├── files
-    │   ├── handlers
-    │   │   └── main.yml
-    │   ├── meta
-    │   │   └── main.yml
-    │   ├── tasks
-    │   │   └── main.yml
-    │   ├── templates
-    │   ├── tests
-    │   │   ├── inventory
-    │   │   └── test.yml
-    │   └── vars
-    │       └── main.yml
     ├── nagiosmain
-    │   ├── README.md
-    │   ├── defaults
-    │   │   └── main.yml
-    │   ├── files
-    │   ├── handlers
-    │   │   └── main.yml
-    │   ├── meta
-    │   │   └── main.yml
-    │   ├── tasks
-    │   │   └── main.yml
-    │   ├── templates
-    │   ├── tests
-    │   │   ├── inventory
-    │   │   └── test.yml
-    │   └── vars
-    │       └── main.yml
-    ├── nagiosmain_centos
-    │   ├── README.md
-    │   ├── defaults
-    │   │   └── main.yml
-    │   ├── files
-    │   ├── handlers
-    │   │   └── main.yml
-    │   ├── meta
-    │   │   └── main.yml
-    │   ├── tasks
-    │   │   └── main.yml
-    │   ├── templates
-    │   ├── tests
-    │   │   ├── inventory
-    │   │   └── test.yml
-    │   └── vars
-    │       └── main.yml
-    ├── php-centos
     │   ├── README.md
     │   ├── defaults
     │   │   └── main.yml
