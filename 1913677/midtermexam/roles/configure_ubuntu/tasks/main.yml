@@ -1,0 +1,11 @@
+---
+# tasks file for roles/configure_ubuntu
+- name: add nagcmd group
+  group:
+    name: nagcmd
+    state: present
+
+- name: add user nagios
+  user:
+    name: nagios
+    group: nagcmd
